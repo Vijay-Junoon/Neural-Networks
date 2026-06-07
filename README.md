@@ -26,4 +26,15 @@
 - Testing set - comprised of 2000 images of cats and 2000 images of dogs.
 - It is a binary classification problem so the loss function used was binary-crossentropy.
 - Adam optimizer was used.
-  
+
+### Fruit Classifier:
+- Downloaded a dataset with more than 10K images of different fruits.
+- Many were corrupted files, so spent some time in data cleaning.
+- Had to use some images from the training dataset as part of the validation dataset as well. (Caused the model to overfit).
+- Added 2 Convolutional layers, 2 pooling layers, 1 flattening layer and output layer.
+- Optimizer used - adam
+- Loss function used - sparse_categorical_crossentropy
+- Metric used: accuracy
+- The model completed training with 100% accuracy, which was suspicious.
+- While testing, it could classify 1 out of 3 images correctly.
+- Classic issue of overfitting.
