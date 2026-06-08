@@ -38,3 +38,15 @@
 - The model completed training with 100% accuracy, which was suspicious.
 - While testing, it could classify 1 out of 3 images correctly.
 - Classic issue of overfitting.
+
+
+## Day - 03
+### Weapon Classifier
+- Downloaded a dataset with many weapon images.
+- As part of data cleaning, removed the corrupted files and created subfolders for each weapon type.
+- Added 3 Convolutional layers, 3 Pooling layers, 1 Flattening and 1 output layer.
+- Optimizer used - adam
+- Loss function - sparse_categorical_crossentropy
+- Metric used - accuracy
+- The model completed training with 82.8% accuracy.
+- While testing, it could classify 2 out of 3 images correctly.
